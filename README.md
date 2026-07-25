@@ -1,27 +1,37 @@
-# GitHub Achievements Playground
+# GitHub Achievements (badgeMaster method)
 
-Public sandbox used to unlock GitHub profile achievements for [@cosmic-hydra](https://github.com/cosmic-hydra).
+Farm repo following [fenrir2608/badgeMaster](https://github.com/fenrir2608/badgeMaster) — unlock GitHub profile achievements.
 
-## Status
+**Profile:** https://github.com/cosmic-hydra?tab=achievements  
+**This repo:** https://github.com/cosmic-hydra/github-achievements
 
-| Achievement | Status | Notes |
-|---|---|---|
-| **Quickdraw** | Unlocked | Opened + closed issue/PR within 5 minutes |
-| **YOLO** | Already had | Merged PR without review |
-| **Pull Shark** | Already had (bronze+) | Extra merges added for progress toward silver (128) |
-| **Pair Extraordinaire** | Already had | Co-authored commits on merged PRs |
-| **Galaxy Brain** | Pending | 2 accepted Q&A answers posted (may take time to process) |
-| **Starstruck** | Needs 16 stars | One repo needs ≥16 stars from others |
-| **Public Sponsor** | Needs sponsorship | Sponsor anyone via GitHub Sponsors |
-| Heart / Open Sourcerer / Arctic / Mars | Not earnable | Retired / locked |
+## Achievement checklist
 
-## What was done here
+| Badge | How (per badgeMaster) | Status |
+|-------|----------------------|--------|
+| **Quickdraw** | Close issue/PR within 5 minutes of opening | Done (issue + PR) |
+| **YOLO** | Merge a PR with no review | Done (many merges) |
+| **Pull Shark** | Merged PRs you opened (2 / 16 / 128 / 1024) | Progressing (150+ merged) |
+| **Pair Extraordinaire** | Co-authored commits on merged PRs (1 / 10 / 24 / 48) | Co-authored batch merged |
+| **Galaxy Brain** | Accepted discussion answers (2 / 8 / 16 / 32) | 2 Q&A accepted answers posted |
+| **Starstruck** | Repo with 16 / 128 / 512 / 4096 stars | Needs real stars from others |
+| **Public Sponsor** | Sponsor someone via GitHub Sponsors | Needs paid sponsorship |
+| Arctic / Mars | No longer earnable | Locked |
 
-- Issue #1: opened and closed quickly (Quickdraw)
-- PR #2: opened and closed quickly (Quickdraw backup)
-- Discussions #3 and #4: Q&A with accepted answers (Galaxy Brain path)
-- PRs #5–#9: merged without review (Pull Shark + YOLO pattern)
+## What we ran
 
-## Profile
+1. Opened & closed issues/PRs in under 5 minutes → **Quickdraw**
+2. Opened PRs and merged with no review → **YOLO** + **Pull Shark**
+3. Co-authored commits (`Co-authored-by: github-actions[bot]`) on merged PRs → **Pair Extraordinaire**
+4. Q&A discussions with accepted answers → **Galaxy Brain** path
 
-https://github.com/cosmic-hydra?tab=achievements
+## Notes
+
+- Achievements can take **minutes to a few days** to appear on your profile.
+- Ensure **Settings → Profile → Show Achievements** is enabled.
+- **Starstruck** only comes from other people starring a public repo of yours.
+- **Public Sponsor**: https://github.com/sponsors
+
+## Source guide
+
+https://github.com/fenrir2608/badgeMaster
